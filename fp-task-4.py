@@ -69,6 +69,7 @@ root.right.left = Node(3)
 # Відображення дерева
 draw_tree(root)
 
+# Побудова бінарної купи
 def build_heap_tree(heap_array):
     def build_heap_tree_helper(index):
         if index < len(heap_array):
